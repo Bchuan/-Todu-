@@ -1,0 +1,195 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    transition: background .2s;
+    outline: 0;
+    list-style: none;
+}
+
+body {
+	background: #00334b;
+}
+
+.box {
+	width: 700px;
+	margin: 0 auto;
+	padding: 0 10px;
+	text-align: center;
+	/*position: relative;*/
+}
+
+.box h1 {
+	color: white;
+	margin: 20px 0;
+	font-size: 50px;
+}
+
+.box .add-task {
+	    /* background: rgba(0, 0, 0, .1); */
+    display: block;
+    margin-top: 0em;
+    height: 38px;
+}
+
+.box .add-task input {
+	border-radius: 3px;
+    padding: 10px;
+}
+
+.box .add-task #text {
+	width: 84%;
+	margin-right: 1%;
+	float: left;
+}
+
+.box .add-task #btn {
+	width: 15%;
+}
+
+.box .task-list{
+	margin: 10px 0;
+}
+
+.box .task-list .task-item{
+	background: #fff;
+    color: #333;
+    margin-bottom: 2px;
+    cursor: pointer;
+    width: 680px;
+    height: 38px;
+    padding: 10px;
+    border-radius: 3px;
+    position: relative;
+    line-height: 18px;
+}
+.box .task-list .task-item div{
+	display: inline-block;
+}
+.box .task-list .task-item div span{
+	margin-left:20px ;
+}
+.box .task-list .task-item input{
+	position: absolute;
+	left: 10px;
+	margin-top: 5px;
+}
+.box .task-list .task-item .text{
+	position: absolute;
+	left: 30px;
+}
+.box .task-list .task-item .detailed{
+	right: 10px;
+	position: absolute;
+	color: #808080;
+}
+
+
+.box .task-detail{
+	position: absolute;
+	background: white;
+	padding: 10px;
+	width: 350px;
+	bottom: 0;
+    right: 0;
+    background: #CCCCCC;
+    border-radius:2px ;
+    left: 50%;
+    margin-left: -175px;
+    height: 380px;
+    /*display: none;*/
+}
+.box .task-detail .title{
+	/*padding: 10px;*/
+	margin-bottom: 10px;
+    font-weight: 900;
+    
+    text-align: left;
+    display: flex;
+    
+}
+.box .task-detail .title #title{
+	cursor: pointer;
+}
+.box .task-detail .title img{
+	height:25px;
+	width: 25px;
+	position: absolute;
+	right: 1px;
+	top: 1px;
+}
+.box .task-detail .intitle{
+	display: none;
+}
+.box .task-detail .desc{
+	border-radius: 3px;
+    padding: 10px;
+    height: 100px;
+    width: 100%;
+    text-align: left;
+  
+}
+.box .task-detail div{
+	margin-top: 5px;
+	width: 100%;
+	text-align: left;
+}
+.box .task-detail div input{
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #808080;
+}
+.box .task-detail div span{
+	display: block;
+	text-align: center;
+	width: 80px;
+	height: 50px;
+	font-size: 30px;
+	line-height: 50px;
+	border-radius: 5px;
+	border: 1px solid #CCCCCC;
+	/*background: #00FF00;*/
+	background: #1295FF;
+	color: #0000FF;
+	margin: 10px 0;
+}
+.box .task-detail select{
+	height: 30px;
+	width: 100%;
+	margin-top: 10px;
+	color: #808080;
+}
+
+.box .Playmusic{
+	position: fixed;
+	top: 25%;
+	left: 50%;
+	margin-left: -175px;
+	height: 300px;
+	width: 350px;
+	text-align: center;
+	background: #1295FF;
+}
+.box .Playmusic img{
+	position: absolute;
+	right: 1px;
+	top: 1px;
+}
+.box .Playmusic h2{
+	font-size: 30px;
+}
+.box .Playmusic p{
+	margin: 20px;
+	word-break:break-word;
+	text-align: left;
+}
+
+.box .hide{
+	position: fixed;
+	width: 100%;
+	background: rgba(161,191,205,0.5);
+	height: 100%;
+	top: 0;
+	left: 0;
+}
